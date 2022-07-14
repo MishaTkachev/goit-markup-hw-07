@@ -34,39 +34,19 @@ input {
   }
 }
 .modal-field {
+  position: relative;
+  display: block;
+
   &.name {
     margin-top: 12px;
-    position: relative;
-    display: block;
   }
 
-  &.phone {
-    position: relative;
-    display: block;
-    margin-top: 10px;
-  }
-
+  &.phone,
   &.email {
-    position: relative;
-    display: block;
     margin-top: 10px;
   }
 }
-.modal-name.icon {
-  display: block;
-  position: absolute;
-  bottom: 14px;
-  left: 15px;
-}
-
-.modal-phone.icon {
-  display: block;
-  position: absolute;
-  bottom: 14px;
-  left: 15px;
-}
-
-.modal-email.icon {
+.modal-icon {
   display: block;
   position: absolute;
   bottom: 14px;

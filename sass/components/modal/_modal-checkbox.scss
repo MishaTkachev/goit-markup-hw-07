@@ -45,13 +45,13 @@
   border: 1px solid var(--title-text-color);
   border-radius: 3px;
   transition: all var(--main-transition);
+}
 
-  .form-agreement-checkbox:checked + & {
-    background-color: var(--focus-color);
-    background-image: url(../images/icon\check\(1\).svg);
-    background-origin: border-box;
-    border-color: var(--focus-color);
-  }
+.form-agreement-checkbox:checked + .icon-disagree {
+  background-color: var(--focus-color);
+  background-image: url(../images/icon_check.svg);
+  background-origin: border-box;
+  border-color: var(--focus-color);
 }
 
 .conditions {

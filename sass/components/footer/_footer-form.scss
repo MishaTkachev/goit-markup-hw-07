@@ -7,11 +7,10 @@
   display: flex;
 }
 
-.footer-form-container input {
+.footer-form-container .footer-input {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-
   margin: 0;
   padding: 15px 16px;
   width: 358px;
@@ -23,7 +22,6 @@
   box-sizing: border-box;
   border-radius: 4px;
   margin-right: 12px;
-
   &::placeholder {
     font-family: "Roboto";
     font-style: normal;
