@@ -571,7 +571,7 @@ textarea::placeholder {
   text-align: center;
   justify-content: center;
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(196, 12, 12, 0.1);
   border-radius: 50%;
 }
 
@@ -706,7 +706,6 @@ textarea::placeholder {
 
 .our-team-list-item__img {
   display: block;
-  margin-bottom: 30px;
 }
 
 .our-team-list-item__name {
@@ -724,6 +723,10 @@ textarea::placeholder {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
+}
+
+.team-member {
+  padding-top: 30px;
 }
 
 .our-team-social {
